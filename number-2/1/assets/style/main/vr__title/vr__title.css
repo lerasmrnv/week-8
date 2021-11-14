@@ -1,0 +1,19 @@
+/* Для большого экрана */
+@media screen and (min-width: 721px) {
+    .vr__title {
+        font-weight: bold;
+        font-size: 4em;
+        line-height: 120%;
+        margin: 0;
+    }
+}
+
+/* Для маленького экрана */
+@media screen and (max-width: 720px) {
+    .vr__title {
+        font-weight: bold;
+        font-size: 2em;
+        line-height: 120%;
+        margin: 0;
+    }
+}

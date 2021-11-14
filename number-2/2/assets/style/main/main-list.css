@@ -1,0 +1,37 @@
+/* Для большого экрана */
+@media screen and (min-width: 721px) {
+    .main-list {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 3;
+        padding: 3%;
+    }
+
+    .main-item {
+        width: 30vw;
+        height: min-content;
+        list-style-type: none;
+        margin-bottom: 3vh;
+    }
+}
+
+/* Для маленького экрана */
+@media screen and (max-width: 720px) {
+    .main-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 3%;
+        padding-left: 0;
+
+    }
+
+    .main-item {
+        list-style-type: none;
+        width: 80vw;
+        height: min-content;
+
+    }
+}

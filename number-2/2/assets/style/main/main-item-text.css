@@ -1,0 +1,17 @@
+/* Для большого экрана */
+@media screen and (min-width: 721px) {
+    .main-item-text {
+        font-style: normal;
+        font-size: 1em;
+        margin-bottom: 3%;
+    }
+}
+
+/* Для маленького экрана */
+@media screen and (max-width: 720px) {
+    .main-item-text {
+        font-style: normal;
+        font-size: 1em;
+        margin-bottom: 3%;
+    }
+}

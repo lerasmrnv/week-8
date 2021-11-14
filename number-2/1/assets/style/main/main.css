@@ -1,0 +1,20 @@
+/* Для большого экрана */
+@media screen and (min-width: 721px) {
+    .vr {
+        display: flex;
+        flex-direction: column;
+        width: min-content;
+        margin-left: 10%;
+        padding-top: 5%;
+    }
+}
+
+/* Для маленького экрана */
+@media screen and (max-width: 720px) {
+    .vr {
+        display: flex;
+        flex-direction: column;
+        width: min-content;
+        margin: 5%;
+    }
+}

@@ -1,0 +1,41 @@
+/* Для большого экрана */
+@media screen and (min-width: 721px) {
+    .body {
+        display: grid;
+        grid-template-rows: 0.5fr min-content 0.5fr;
+        grid-template-areas: "header""main""footer";
+    }
+
+    .header {
+        grid-area: header;
+    }
+
+    .main {
+        grid-area: main;
+    }
+
+    .footer {
+        grid-area: footer;
+    }
+}
+
+/* Для маленького экрана */
+@media screen and (max-width: 720px) {
+    .body {
+        display: grid;
+        grid-template-rows: 10vh min-content 10vh;
+        grid-template-areas: "header""main""footer";
+    }
+
+    .header {
+        grid-area: header;
+    }
+
+    .main {
+        grid-area: main;
+    }
+
+    .footer {
+        grid-area: footer;
+    }
+}

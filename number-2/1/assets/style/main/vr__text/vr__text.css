@@ -1,0 +1,13 @@
+/* Для большого экрана */
+@media screen and (min-width: 721px) {
+    .vr__text {
+        font-size: 1em;
+    }
+}
+
+/* Для маленького экрана */
+@media screen and (max-width: 720px) {
+    .vr__text {
+        font-size: 1em;
+    }
+}

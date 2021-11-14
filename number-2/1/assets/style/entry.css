@@ -1,0 +1,19 @@
+/* Common */
+@import '../style/common/button.css';
+@import '../style/common/text.css';
+
+/* header */
+@import '../style/header/button/header__button.css';
+@import '../style/header/logo/logo.css';
+@import '../style/header/header.css';
+
+/* main */
+@import '../style/main/main.css';
+@import '../style/main/vr__title/vr__title.css';
+@import '../style/main/vr__text/vr__text.css';
+@import '../style/main/button/vr__btn.css';
+
+/* footer */
+@import '../style/footer/footer__nav.css';
+@import '../style/footer/footer__nav-list.css';
+@import '../style/footer/footer__nav-item.css';

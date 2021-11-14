@@ -1,0 +1,23 @@
+/* Common */
+@import '../style/common/button.css';
+@import '../style/common/text.css';
+
+/* header */
+@import '../style/header/button/header__button.css';
+@import '../style/header/logo/logo.css';
+@import '../style/header/header.css';
+
+/* main */
+@import '../style/main/main.css';
+@import '../style/main/main.css';
+@import '../style/main/main-title.css';
+@import '../style/main/main-list.css';
+@import '../style/main/main-item-title.css';
+@import '../style/main/main-item-text.css';
+@import '../style/main/main-item-img.css';
+@import '../style/main/main-item-news.css';
+
+/* footer */
+@import '../style/footer/footer__nav.css';
+@import '../style/footer/footer__nav-list.css';
+@import '../style/footer/footer__nav-item.css';

@@ -1,0 +1,17 @@
+/* Для большого экрана */
+@media screen and (min-width: 721px) {
+    .footer__nav-item {
+        list-style-type: none;
+        font-size: 1em;
+        margin-left: 5%;
+    }
+}
+
+/* Для маленького экрана */
+@media screen and (max-width: 720px) {
+    .footer__nav-item {
+        list-style-type: none;
+        font-size: 1em;
+        margin-left: 5%;
+    }
+}

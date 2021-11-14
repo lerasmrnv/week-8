@@ -1,0 +1,18 @@
+/* Для большого экрана */
+@media screen and (min-width: 721px) {
+    .header {
+        display: flex;
+        padding: 3%;
+        justify-content: space-between;
+        height: min-content;
+    }
+}
+
+/* Для маленького экрана */
+@media screen and (max-width: 720px) {
+    .header {
+        display: flex;
+        padding: 5%;
+        height: min-content;
+    }
+}
